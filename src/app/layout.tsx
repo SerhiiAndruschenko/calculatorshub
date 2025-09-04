@@ -17,62 +17,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UtilsKit - Essential Developer Tools Collection",
+  title: "CalculatorsHub - Essential Calculators Collection | Free & No Limits",
   description:
-    "A comprehensive collection of essential developer tools including JSON formatters, regex testers, encoders, web generators, and more. All tools work locally in your browser.",
+    "A comprehensive collection of essential calculators including percentage calculators, date/time tools, financial calculators, and unit converters. All tools work locally in your browser.",
   keywords:
-    "utilskit, developer tools, json formatter, regex tester, base64 encoder, jwt decoder, og meta generator, manifest generator, cron parser, semver, curl to code",
-  authors: [{ name: "UtilsKit" }],
-  creator: "UtilsKit",
-  publisher: "UtilsKit",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL("https://utilskit.com"),
-  alternates: {
-    canonical: "https://utilskit.com",
-  },
+    "calculatorshub, calculators, percentage calculator, percentage increase, discount calculator, tip calculator, age calculator, date difference, unix time converter, vat calculator, gst calculator, loan calculator, fraction to decimal, ratio simplifier, unit converter, length converter, mass converter, temperature converter",
   openGraph: {
-    title: "UtilsKit - Essential Developer Tools Collection",
+    title: "CalculatorsHub - Essential Calculators Collection",
     description:
-      "A comprehensive collection of essential developer tools including JSON formatters, regex testers, encoders, web generators, and more.",
-    url: "https://utilskit.com",
-    siteName: "UtilsKit",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "UtilsKit - Essential Developer Tools Collection",
-      },
-    ],
-    locale: "en_US",
+      "A comprehensive collection of essential calculators including percentage calculators, date/time tools, financial calculators, and unit converters.",
+    url: "https://calculatorshub.tech",
     type: "website",
+    siteName: "CalculatorsHub",
   },
   twitter: {
     card: "summary_large_image",
-    title: "UtilsKit - Essential Developer Tools Collection",
+    title: "CalculatorsHub - Essential Calculators Collection",
     description:
-      "A comprehensive collection of essential developer tools including JSON formatters, regex testers, encoders, web generators, and more.",
-    images: ["/og-image.jpg"],
+      "A comprehensive collection of essential calculators including percentage calculators, date/time tools, financial calculators, and unit converters.",
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  verification: {
-    google: "your-google-verification-code",
-    yandex: "your-yandex-verification-code",
-    yahoo: "your-yahoo-verification-code",
+  alternates: {
+    canonical: "https://calculatorshub.tech",
   },
 };
 
@@ -83,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-ZKBPEJ1Z84" />
+      <GoogleAnalytics gaId="G-00XNE91V6X" />
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
@@ -93,8 +58,8 @@ export default function RootLayout({
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <meta name="apple-mobile-web-app-title" content="UtilsKit" />
-        <meta name="application-name" content="UtilsKit" />
+        <meta name="apple-mobile-web-app-title" content="CalculatorsHub" />
+        <meta name="application-name" content="CalculatorsHub" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
         <link rel="icon" href="/favicon.ico" />
